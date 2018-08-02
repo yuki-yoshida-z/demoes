@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+html, body{
+  height: 100%;
+}
+.wrapper{
+  width: 100%;
+  padding: 40px 0;
+  background-color: #eee;
+}
+.container{
+  width: 980px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.demoes-header{
+  width: 100%;
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+.demoes-header .__title{
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.demoes-body{
+  padding: 16px;
+  font-size: 24px;
+}

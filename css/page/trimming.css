@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+.demoes-body .__label{
+  width: 360px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #555;
+  background-color: #eee;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 2;
+  cursor: pointer;
+}
+
+.demoes-body .__label:hover{
+  opacity: 0.5;
+}
+
+.demoes-body .__input{
+  display: none;
+}
+
+.demoes-body .__text{
+  font-size: 24px;
+}
+
+.demoes-body .__file-name{
+  margin-top: 16px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.demoes-body .file-image-preview{
+  width: 500px;
+  min-height: 300px;
+  margin: 16px auto;
+  border: 1px solid #555;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.demoes-body .file-image-preview .__img{
+  max-width: 100%;
+  /*width: 100%;*/
+}
+
+.demoes-body .trimming-btn{
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 2;
+  cursor: pointer;
+  color: #fff;
+}
+
+.demoes-body .trimming-btn:hover{
+  opacity: 0.5;
+}
+
+.modal-body .trimming-area{
+  max-width: 100%;
+}
+
+.modal-body .trimming-area img{
+  width: 100%;
+}
+
+.file-image-trimmed{
+  width: 500px;
+  margin: 40px auto;
+}
+.file-image-trimmed .__h2{
+  font-size: 24px;
+  text-align: center;
+}
+
+.file-image-trimmed .__img{
+  width: 100%;
+}

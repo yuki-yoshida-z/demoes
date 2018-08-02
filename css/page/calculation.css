@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+.wrapper{
+  height: 100%;
+}
+.input-area{
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+}
+.input-area .__item{
+  margin: 16px 0;
+}
+.input-area .__input{
+  width: 500px;
+  margin: 0 auto 16px;
+  font-size: 24px;
+}
+.demoes-body .__btn{
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+  line-height: 3;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+.demoes-body .__btn:hover{
+  opacity: 0.5;
+}
+.answer-area{
+  width: 500px;
+  margin: 24px auto 16px;
+  padding: 8px;
+  border: 1px solid #eee;
+}
+.answer-area .__text{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name=”robots” content=”noindex”>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <title>計算デモ</title>
+  <link rel="stylesheet" href="css/base/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base/layout.css" type="text/css">
+  <link rel="stylesheet" href="css/vendor/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/page/calculation.css" type="text/css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="demoes-header">
+        <h1 class="__title js-titleClick">割り勘デモ</h1>
+      <!-- /.demoes-header --></div>
+      <div class="demoes-body">
+        <dl class="input-area">
+          <dt class="__item">金額</dt>
+          <dd><input class="__input js-inputPrice" type="text" value=""></dd>
+          <dt class="__item">人数</dt>
+          <dd><input class="__input js-inputNum" type="text" value=""></dd>
+        </dl>
+        <button class="__btn js-culcBtn" type="button">計算する</button>
+        <div class="answer-area">
+          <p class="__text">一人あたり<span class="js-answerNum"></span>円です</p>
+        <!-- /.answer-area --></div>
+      <!-- /.demoes-body --></div>
+    <!-- / .container --></div>
+  <!-- / .wrapper --></div>
+  <!-- <script src="js/vendor/bootstrap.min.js"></script> -->
+  <script src="js/page/calculation.js"></script>
+</body>
+</html>

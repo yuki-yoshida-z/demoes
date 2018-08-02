@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name=”robots” content=”noindex”>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <title>トリミングのデモ</title>
+  <link rel="stylesheet" href="css/base/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base/layout.css" type="text/css">
+  <link rel="stylesheet" href="css/vendor/cropper.css" type="text/css">
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/page/trimming.css" type="text/css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="demoes-header">
+        <h1 class="__title">トリミングのデモ</h1>
+      <!-- /.demoes-header --></div>
+      <div class="demoes-body">
+        <label class="__label">
+          <input id="image-file" type="file" class="__input js-imageFile" accept="image/jpeg">
+          <span class="__text">ファイルを選択</span>
+        </label>
+        <p class="__file-name js-fileName" data-file-name="1">ファイルは選択されていません。</p>
+        <div class="file-image-preview js-previewImageBlock">
+          <img src="" class="__img js-preaviewImage" id="trimming-image">
+        <!-- /.file-image-preview --></div>
+        <button class="trimming-btn" type="button" data-toggle="modal" data-target="#myModal">上の画像をトリミングする</button>
+        <div class="file-image-trimmed">
+          <h2 class="__h2">トリミング後の画像が表示されます</h2>
+          <img id="image" class="__img js-trimmedImg" src="">
+        </div>
+      <!-- /.demoes-body --></div>
+    <!-- / .container --></div>
+  <!-- / .wrapper --></div>
+
+  <div class="modal fade js-trimmingModal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">トリミンングしてください</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="trimming-area">
+            <img src="" class="js-trimmingAreaImg">
+          <!-- /.trimming-area --></div>
+        <!-- /.modal-body --></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger js-trimmingBtn" data-option="">これで決定</button>
+        </div>
+      <!-- /.modal-content --></div>
+    <!-- /.modal-dialog --></div>
+  <!-- /.modal --></div>
+  <script src="js/vendor/cropper.js"></script>
+  <script src="js/page/trimming.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+</body>
+</html>
