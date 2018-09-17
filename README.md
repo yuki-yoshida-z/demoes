@@ -18,7 +18,7 @@
 [目次js](http://zihuatanejo.jp/demoes/page_index.html)
 
 ### 画像トリミング
-cropper.jsとbootstrapを使用した画像トリミング機能。
-サーバーサイドは未実装。
+cropper.jsとbootstrapを使用した画像トリミング機能。  
+サーバーサイドは未実装。  
 [画像トリミングjs](http://zihuatanejo.jp/demoes/trimming.html)
 
