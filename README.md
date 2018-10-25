@@ -7,6 +7,7 @@
 - 割り勘
 - 目次作成
 - 画像トリミング機能
+- chart.js
 ## 詳細
 ### 割り勘
 その名の通り値段と金額を入れたら割り勘の値段が計算される。  
@@ -22,3 +23,7 @@ cropper.jsとbootstrapを使用した画像トリミング機能。
 サーバーサイドは未実装。  
 [画像トリミングjs](http://zihuatanejo.jp/demoes/trimming.html)
 
+### chart.js
+chart.jsのデモ。  
+特に難しいことはしていないので触り程度。  
+[chart.js](http://zihuatanejo.jp/demoes/chart.html)
