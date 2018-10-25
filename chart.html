@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name=”robots” content=”noindex”>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <title>チャートjsのデモ</title>
+  <link rel="stylesheet" href="css/base/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base/layout.css" type="text/css">
+  <link rel="stylesheet" href="css/vendor/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/page/chart.css" type="text/css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="demoes-header">
+        <h1 class="__title js-titleClick">Chart.jsのラインチャートのデモ</h1>
+      <!-- /.demoes-header --></div>
+      <div class="demoes-body">
+        <div class="container">
+          <canvas id="lineChart" height="200"><canvas>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="demoes-header">
+        <h1 class="__title js-titleClick">Chart.jsのバーチャートのデモ</h1>
+      <!-- /.demoes-header --></div>
+      <div class="demoes-body">
+        <div class="container">
+          <canvas id="barChart" height="200"><canvas>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="demoes-header">
+        <h1 class="__title js-titleClick">Chart.jsのレーダーチャートのデモ</h1>
+      <!-- /.demoes-header --></div>
+      <div class="demoes-body">
+        <div class="container">
+          <canvas id="radarChart" height="200"><canvas>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="demoes-header">
+        <h1 class="__title js-titleClick">Chart.jsのドーナッツチャートのデモ</h1>
+      <!-- /.demoes-header --></div>
+      <div class="demoes-body">
+        <div class="container">
+          <p class="heading">LP制作の納期までの日数</p>
+          <canvas id="doughnutChart" height="200"><canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/page/chart.js"></script>
+</body>
+</html>
